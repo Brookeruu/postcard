@@ -36,21 +36,27 @@
 
         <div class="form-group">
           <h2>Message</h2>
-          <label for="message">Name</label>
+          <label for="message">Message</label>
           <input id="message" class="form-control" type="text">
         </div>
 
         <button type="submit" class="btn">Send!</button>
       </form>
       <div id="postcard">
-        <h2><span class="name"></span></h2>
-        <h3><span class="streetAddress"></span></h3>
-        <h3><span class="cityState"></span></h3>
-        <h3><span class="zipCode"></span></h3>
+        <img src="stamp.jpg" alt="image of stamp">
+        <div class="addressBox">
+          <h2><span class="name"></span></h2>
+          <h3><span class="streetAddress"></span></h3>
+          <h3><span class="cityState"></span></h3>
+          <h3><span class="zipCode"></span></h3>
+        </div>
 
-        <p>Hi, <span class="name"></span>, <br/>
-        <span class="message"></span>
-        </p>
+
+        <div class="messageBox">
+          <p>Hi, <span class="name"></span>, <br/>
+          <span class="message"></span>
+          </p>
+        </div>
       </div>
     </div>
   </body>

@@ -1,3 +1,15 @@
 #postcard {
   display: none;
+  border: solid black 2px;
+  padding: 10px;
+  max-width: 50%;
+}
+
+.addressBox {
+  padding: 10px;
+  text-align: right;
+}
+
+img {
+  float: left;
 }
